@@ -8,14 +8,14 @@ use GuzzleHttp\Client;
 use Illuminate\Console\Command;
 
 
-class TestCommand extends Command
+class GetLeagues extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'test-command';
+    protected $signature = 'get-leagues';
 
     /**
      * The console command description.

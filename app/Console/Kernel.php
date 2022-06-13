@@ -15,7 +15,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')->hourly();
+        $schedule->command('get-leagues')->timezone('Europe/Kiev')->dailyAt('12:00');
     }
 
     /**
